@@ -1,0 +1,48 @@
+<DOCTYPE! html>
+<html lANG="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>ES6 nemeltuud</title>
+    <style>
+        body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #222;
+			height: 100vh;
+		}
+        .fact{
+			background-color: #fff;
+			width: 450px;
+            height: 500px;
+            border-radius: 30px;
+            background-color: rgb(0, 0, 0);
+		}
+        img{
+            width:375px;
+            height:375px;
+            padding: 40px;
+            border-radius: 30px;
+        }
+        button{
+            border-radius: 10px;
+            margin:33px;
+            background-color: rgb(74, 40, 74);
+        }
+    </style>
+</head>
+<body class="img" style="background:url('./gojo.jpg')">
+    <div class="fact">
+        <span>
+            <img class="img" src="gojo.jpg" alt="">
+        </span>
+        <span class="text"></span>
+        <button onclick="next()">next</button>
+        <button onclick="auto()" class="auto">auto</button>
+        <button onclick="stop()" class="stop">stop</button>
+        <button onclick="prev()">prev</button>
+    </div>
+    <script src="lab9.js"></script>
+</body>
+</html>
